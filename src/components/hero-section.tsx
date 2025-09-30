@@ -43,7 +43,7 @@ export function HeroSection() {
     <section 
       id="home" 
       ref={heroRef}
-      className="min-h-screen flex items-center justify-center relative overflow-hidden hero-3d bg-gradient-to-br from-slate-900 via-purple-900/20 to-slate-900 dark:from-slate-900 dark:via-blue-900/30 dark:to-slate-900"
+      className="min-h-screen flex items-center justify-center relative overflow-hidden hero-3d bg-gradient-to-br from-blue-50 via-purple-50/50 to-blue-50 dark:from-slate-900 dark:via-blue-900/30 dark:to-slate-900"
     >
       <FloatingShapes />
       
@@ -63,7 +63,7 @@ export function HeroSection() {
         <div ref={contentRef} className="hero-content">
           <div className="relative">
             <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold mb-6 relative">
-              <span className="text-white dark:text-white">Hi, I'm </span>
+              <span className="text-gray-900 dark:text-white">Hi, I'm </span>
               <span className="gradient-text relative">
                 Hitesh Zade
                 <div className="absolute -inset-1 bg-gradient-to-r from-blue-500 to-purple-600 rounded-lg blur opacity-25 group-hover:opacity-100 transition duration-1000 group-hover:duration-200 animate-pulse"></div>
@@ -71,12 +71,12 @@ export function HeroSection() {
             </h1>
           </div>
           
-          <h2 className="text-2xl sm:text-3xl lg:text-4xl font-light my-10 text-gray-300 dark:text-gray-300">
+          <h2 className="text-2xl sm:text-3xl lg:text-4xl font-light my-10 text-gray-700 dark:text-gray-300">
             {typewriterText}
             <span className="animate-pulse">|</span>
           </h2>
           
-          <p className="text-xl mb-8 max-w-3xl mx-auto text-gray-300 dark:text-gray-400">
+          <p className="text-xl mb-8 max-w-3xl mx-auto text-gray-600 dark:text-gray-400">
             4.9 years of crafting exceptional web experiences with modern technologies and creative solutions
           </p>
           
@@ -90,7 +90,7 @@ export function HeroSection() {
             </button>
             <button 
               onClick={scrollToContact}
-              className="border-2 border-blue-500 text-blue-400 dark:text-blue-400 dark:border-blue-400 px-8 py-4 rounded-full font-semibold hover:bg-blue-500 hover:text-white dark:hover:bg-blue-400 hover:shadow-2xl hover:shadow-blue-500/25 transform hover:scale-105 transition-all duration-300"
+              className="border-2 border-blue-500 text-blue-600 dark:text-blue-400 dark:border-blue-400 px-8 py-4 rounded-full font-semibold hover:bg-blue-500 hover:text-white dark:hover:bg-blue-400 hover:shadow-2xl hover:shadow-blue-500/25 transform hover:scale-105 transition-all duration-300"
             >
               Get In Touch
             </button>
@@ -100,7 +100,7 @@ export function HeroSection() {
       
       <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2">
         <div className="animate-bounce">
-          <ChevronDown className="w-8 h-8 text-gray-400 hover:text-blue-400 transition-colors cursor-pointer" />
+          <ChevronDown className="w-8 h-8 text-gray-600 dark:text-gray-400 hover:text-blue-500 dark:hover:text-blue-400 transition-colors cursor-pointer" />
         </div>
       </div>
     </section>

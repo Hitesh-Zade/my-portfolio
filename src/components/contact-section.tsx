@@ -120,7 +120,7 @@ export function ContactSection() {
     <section 
       id="contact" 
       ref={sectionRef} 
-      className="py-20 bg-white dark:bg-slate-900 parallax-bg"
+      className="py-20 bg-gray-50 dark:bg-slate-800 parallax-bg"
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16 animate-on-scroll">

@@ -1,5 +1,5 @@
 import { useGSAP, useGSAPRef } from "@/hooks/use-gsap";
-// import MyImage "../img/myImage"
+import MyImage from "../img/myImage2.png";
 
 export function AboutSection() {
   const sectionRef = useGSAPRef<HTMLElement>();
@@ -64,7 +64,7 @@ export function AboutSection() {
           
           <div className="relative animate-on-scroll">
             <img 
-              src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=600" 
+              src={MyImage}
               alt="Professional developer portrait" 
               className="rounded-2xl shadow-2xl w-full h-auto transform hover:scale-105 transition-transform duration-500"
             />
