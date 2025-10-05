@@ -5,6 +5,7 @@ import brainwave from "../img/brainwave.png"
 import expense from "../img/expense.png"
 import project from "../img/project.png"
 import ticTacToe from "../img/tictactoe.png"
+import weatherly from "../img/weatherly.png"
 
 export function ProjectsSection() {
   const sectionRef = useGSAPRef<HTMLElement>();
@@ -30,6 +31,17 @@ export function ProjectsSection() {
   }, []);
 
   const projects = [
+    {
+      title: "Weather Dashboard",
+      description: "Interactive weather application with location-based forecasts, animated weather icons, and responsive design for all devices.",
+      image: weatherly,
+      technologies: ["HTML5", "CSS3", "jQuery"],
+      colors: ["bg-orange-100 dark:bg-orange-900 text-orange-800 dark:text-orange-300", "bg-blue-100 dark:bg-blue-900 text-blue-800 dark:text-blue-300", "bg-yellow-100 dark:bg-yellow-900 text-yellow-800 dark:text-yellow-300"],
+      links: {
+        live: "https://weathely.vercel.app/",
+        code: "https://github.com/Hitesh-Zade/weatherApp"
+      }
+    },
     {
       title: "Movix",
       description: "A web application that allows users to search for movies by title, view detailed information such as release year, genre, cast, and ratings, and explore trending films.",
@@ -63,17 +75,7 @@ export function ProjectsSection() {
         code: "https://github.com/Hitesh-Zade/expense-tracker"
       }
     },
-    {
-      title: "Weather Dashboard",
-      description: "Interactive weather application with location-based forecasts, animated weather icons, and responsive design for all devices.",
-      image: "https://images.unsplash.com/photo-1504608524841-42fe6f032b4b?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=400",
-      technologies: ["HTML5", "CSS3", "jQuery"],
-      colors: ["bg-orange-100 dark:bg-orange-900 text-orange-800 dark:text-orange-300", "bg-blue-100 dark:bg-blue-900 text-blue-800 dark:text-blue-300", "bg-yellow-100 dark:bg-yellow-900 text-yellow-800 dark:text-yellow-300"],
-      links: {
-        live: "https://moviex-eta.vercel.app/",
-        code: "https://github.com/Hitesh-Zade/Moviex"
-      }
-    },
+   
     {
       title: "Project Management",
       description: "A project management web application that allows users to create, organize, and manage tasks effectively with a clean and intuitive interface",

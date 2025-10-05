@@ -77,7 +77,7 @@ export function HeroSection() {
           </h2>
           
           <p className="text-xl mb-8 max-w-3xl mx-auto text-gray-600 dark:text-gray-400">
-            4.9 years of crafting exceptional web experiences with modern technologies and creative solutions
+            5 years of crafting exceptional web experiences with modern technologies and creative solutions
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center">

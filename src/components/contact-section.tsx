@@ -110,7 +110,7 @@ export function ContactSection() {
   ];
 
   const socialLinks = [
-    { icon: "fab fa-linkedin-in", href: "https://www.linkedin.com/in/hitesh-zade-41657b181", color: "hover:bg-blue-500" },
+    { icon: "fab fa-linkedin-in", href: "https://www.linkedin.com/in/hiteshzade", color: "hover:bg-blue-500" },
     { icon: "fab fa-github", href: "https://github.com/hitesh-zade", color: "hover:bg-gray-800" },
     { icon: "fab fa-twitter", href: "https://twitter.com/hitesh_zade", color: "hover:bg-blue-400" },
     { icon: "fab fa-instagram", href: "https://www.instagram.com/hiteish_zade?igsh=dmpiZmRydGVudGlz", color: "hover:bg-red-500" }
