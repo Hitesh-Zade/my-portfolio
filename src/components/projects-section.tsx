@@ -10,6 +10,7 @@ import weatherly from "../img/weatherly.png"
 export function ProjectsSection() {
   const sectionRef = useGSAPRef<HTMLElement>();
 
+  
   useGSAP(() => {
     if (window.gsap && window.ScrollTrigger && sectionRef.current) {
       const cards = sectionRef.current.querySelectorAll('.project-card');
